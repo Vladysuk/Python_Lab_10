@@ -11,12 +11,12 @@ class Laptop:
         self.price = price
 
     def __str__(self):
-        return "Processor speed: " + str(self.processor_speed_in_GHz) + " GHz" + "\n" +\
-               "RAM: " + str(self.random_access_memory) + " Gb" + "\n" +\
-               "Producer's name: " + str(self.producer_name) + "\n" +\
-               "Video card: " + str(self.video_card_name) + "\n" +\
+        return "Processor speed: " + str(self.processor_speed_in_GHz) + " GHz" + "\n" + \
+               "RAM: " + str(self.random_access_memory) + " Gb" + "\n" + \
+               "Producer's name: " + str(self.producer_name) + "\n" + \
+               "Video card: " + str(self.video_card_name) + "\n" + \
                "Display: " + str(self.display) + "\n" + \
-               "Price: " + str(self.price) + " $" +"\n"
+               "Price: " + str(self.price) + " $" + "\n"
 
     @staticmethod
     def get_keyboard():
